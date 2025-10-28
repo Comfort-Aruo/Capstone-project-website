@@ -1,0 +1,13 @@
+./WebsiteDeploy.sh: line 1: !#/bin/bash: No such file or directory
+[STEP 1] Activating static website hosting...
+[STEP 1] Website hosting enabled for bucket: comfort-capstone-project-2025
+[STEP 2] Applying public read access...
+[STEP 2] Public read access granted
+[STEP 3] Syncing local files to S3...
+Completed 302 Bytes/302 Bytes (851 Bytes/s) with 1 file(s) remainingupload failed: .\full-log.txt to s3://comfort-capstone-project-2025/full-log.txt An error occurred (AccessControlListNotSupported) when calling the PutObject operation: The bucket does not allow ACLs
+[STEP 3] Website files uploaded successfully
+--------------------------------------------------
+✅ Deployment Complete!
+Your static website is live at:
+http://comfort-capstone-project-2025.s3-website.eu-west-2.amazonaws.com
+--------------------------------------------------
