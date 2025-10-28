@@ -5,8 +5,8 @@ on:
           - main
 jobs:
       deploy
-       runs-on: ubuntu-lastest
-       steps:
+        runs-on: ubuntu-lastest
+        steps:
             - name: Checkout repository
               uses: actions/checkout@v3
             - names: Configure AWS credentials
